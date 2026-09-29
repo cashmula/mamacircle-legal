@@ -249,7 +249,7 @@
 <div class="page">
   <header class="masthead">
     <div class="wordmark">MamaCircle</div>
-    <p class="eyebrow">Privacy Policy · Last updated 15 August 2026</p>
+    <p class="eyebrow">Privacy Policy · Last updated 30 September 2026</p>
     <p class="eyebrow"><a href="terms/">Terms of Service →</a></p>
   </header>
 
@@ -284,6 +284,7 @@
         <p><strong>Information about your child</strong>: a nickname (optional, defaults to "Baby") and birth month and year. We do not collect your child's full birth date, legal name, or photo.</p>
         <p><strong>Content you create</strong>: posts, photos, and comments in groups; questions and answers in the community forum; messages you send in chat; groups you create or join; articles you contribute to the knowledge base; and any reports you submit about another user or piece of content.</p>
         <p><strong>Device information for notifications</strong>: if you allow notifications, we store a device push token so we can notify you about new messages. This token identifies your device for this purpose only.</p>
+        <p><strong>Identity verification with Vipps (optional)</strong>: if you choose to verify your identity, you log in with Vipps, and Vipps shares your phone number and a Vipps user identifier with us. We never store your phone number itself. We immediately turn it into an irreversible, keyed code (a cryptographic hash) that lets us check that the same phone number is not used to verify more than one account, and we store only that code and the fact that your account is verified. Other users never see your phone number; they only see a verified badge.</p>
       </section>
 
       <section id="use">
@@ -300,6 +301,7 @@
           <li><strong>Firebase Cloud Messaging</strong>, a Google service used only to deliver push notifications to your device. Only a device token and the notification content are sent to this service, for this purpose only.</li>
           <li><strong>Firebase Crashlytics</strong>, a Google service used to help us detect and fix app crashes and errors. If the app crashes or hits an unexpected error, a technical report (what went wrong, your device model and OS version, and the app version) is sent to this service. It does not include your posts, messages, or other personal content.</li>
           <li><strong>Google Cloud Vision API</strong>, used to automatically screen photos you upload for content that may violate our community guidelines (for example, explicit or violent imagery), so our moderators can review it. Only the photo itself is sent to this service, for this purpose only; it does not decide on its own to remove anything, a human reviews any photo it flags.</li>
+          <li><strong>Vipps MobilePay AS</strong>, used only if you choose to verify your identity. You log in inside Vipps's own app or website, and Vipps sends us your phone number and user identifier as described above. Vipps's own privacy terms apply to that login.</li>
         </ul>
         <p>We do not sell your information, and we do not share it with any other third party, advertiser, or data broker.</p>
         <p>Other users of the app can see information you choose to share: your display name and bio, posts and comments you make in groups you belong to, your questions and answers in the public forum, and messages in conversations you are part of. Your exact location is never shared with anyone; only your chosen neighborhood is visible to other users.</p>
@@ -308,6 +310,7 @@
       <section id="choices">
         <h2>Your choices and controls</h2>
         <p>You can edit or remove your child's information, edit your neighborhood, and block or report another user or piece of content at any time from within the app. You can also download a copy of everything we hold about your account at any time from Settings &gt; Download my data.</p>
+        <p>If you verified with Vipps, you can withdraw your consent at any time in the Vipps app; your verified badge is then removed. You can also choose to receive new chat requests only from verified members, in Settings &gt; Privacy and data &gt; Chats.</p>
         <p>In a 1:1 chat, you can choose to send a photo as "view once": it disappears from the recipient's view after they open it. The photo itself is still kept on our servers for up to 72 hours after it was sent, regardless of whether or when it was opened, before being permanently deleted. This short window exists so that a report about the photo, filed shortly after it was sent, still has something for us to review, rather than the photo being unrecoverable the moment someone taps to view it.</p>
       </section>
 
@@ -316,6 +319,7 @@
         <p>We retain your information for as long as your account is active.</p>
         <div class="callout"><strong>In-app deletion:</strong> you can permanently delete your account and all associated data at any time from Settings &gt; Delete account, without needing to contact us. Deleting your account removes your profile, your child's information, your posts, comments, messages, and photos. This action cannot be undone.</div>
         <p>If you would rather have us delete your account on your behalf, you can also contact us at <a href="mailto:support@mamacircle.no">support@mamacircle.no</a>.</p>
+        <p>If you withdraw your consent in Vipps, we remove your verified status and delete these codes from your profile. We keep the code for your phone number for 30 days after the withdrawal, used only so that a suspension for breaking our rules can still stop that phone number from verifying a new account. After 30 days it is deleted automatically. If your account is suspended, the code is kept for as long as the suspension lasts, for the same reason.</p>
       </section>
 
       <section id="security">

@@ -302,7 +302,7 @@
           <li>it asks Mozilla's public database of email providers (autoconfig.thunderbird.net), sending only your domain name;</li>
           <li>it tries common server names for your domain.</li>
         </ul>
-        <p>If your provider's settings server cannot be reached over an encrypted connection, the app also tries an unencrypted one, so in that case your email address can reach that server unencrypted. Google and Mozilla handle what they receive under their own privacy policies.</p>
+        <p>These lookups only ever use encrypted connections (HTTPS). If a settings server cannot be reached that way, the app skips it rather than asking it unencrypted, and you enter the server settings yourself. Google and Mozilla handle what they receive under their own privacy policies.</p>
       </section>
 
       <section id="background">

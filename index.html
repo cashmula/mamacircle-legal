@@ -249,7 +249,7 @@
 <div class="page">
   <header class="masthead">
     <div class="wordmark">MamaCircle</div>
-    <p class="eyebrow">Privacy Policy · Last updated 15 November 2026</p>
+    <p class="eyebrow">Privacy Policy · Last updated 18 November 2026</p>
     <p class="eyebrow"><a href="terms/">Terms of Service →</a></p>
   </header>
 
@@ -263,6 +263,7 @@
         <li><a href="#basis">Legal basis</a></li>
         <li><a href="#share">Who we share information with</a></li>
         <li><a href="#transfers">Transfers outside the EEA</a></li>
+        <li><a href="#website">Our website, mamacircle.no</a></li>
         <li><a href="#choices">Your choices and controls</a></li>
         <li><a href="#rights">Your rights</a></li>
         <li><a href="#retention">Data retention and deletion</a></li>
@@ -297,7 +298,7 @@
       <section id="use">
         <h2>How we use this information</h2>
         <p>We use your information to operate the app's core features: matching you with nearby parents of similarly-aged children, showing your posts and messages to the people you share a group or conversation with, and sending push notifications you have enabled.</p>
-        <p>We do not use your information for advertising. MamaCircle does not show ads and does not use any advertising or analytics tracking services.</p>
+        <p>We do not use your information for advertising. MamaCircle does not show ads, does not use any advertising service, and never tracks you across other apps or websites. To keep the app fast, it measures its own performance (how quickly it starts, shows screens and loads data); those measurements are not linked to your account, as described under Firebase Performance Monitoring below.</p>
       </section>
 
       <section id="basis">
@@ -305,7 +306,7 @@
         <p><strong>To provide the app you signed up for</strong>: your account and profile, your child's information, your location, groups, chat, the forum, events, and the emails needed to run your account. This is necessary to provide the service under our terms (GDPR Article 6(1)(b)).</p>
         <p><strong>Things you choose to switch on</strong>: push notifications, letting the app read your device's position, identity verification with Vipps, and signing up or logging in with Vipps. These rely on your consent (Article 6(1)(a)), which you can withdraw at any time by turning notifications or location access off in your phone's settings, or by withdrawing your consent in the Vipps app. Withdrawing does not affect what happened before.</p>
         <p><strong>Pregnancy</strong>: that you are pregnant is health information, which the GDPR treats as especially sensitive. We keep it only because you choose to add it, on the basis of your explicit consent (Article 9(2)(a) and Article 6(1)(a)). Showing other members that you are expecting is a separate choice, off unless you turn it on. You can turn the badge off, or remove the pregnancy, at any time in My kids; removing it deletes it.</p>
-        <p><strong>Keeping members safe and the app working</strong>: screening uploaded photos, handling reports, blocking and moderation, suspensions (including keeping the code for a suspended phone number), the sign-in security check, crash and error reports, and bug reports you send. These rely on our legitimate interest in a safe, working service for mothers and their families (Article 6(1)(f)). You can object to this use; contact us and we will consider your objection.</p>
+        <p><strong>Keeping members safe and the app working</strong>: screening uploaded photos, handling reports, blocking and moderation, suspensions (including keeping the code for a suspended phone number), the sign-in security check, crash and error reports, measuring how fast the app works, and bug reports you send. These rely on our legitimate interest in a safe, working service for mothers and their families (Article 6(1)(f)). You can object to this use; contact us and we will consider your objection.</p>
         <p><strong>A reminder if you don&#8217;t finish signing up</strong>: If you start signing up but don&#8217;t finish creating your profile, we may send you one email, in Norwegian and English, explaining how to finish. This relies on our legitimate interest in helping you complete a sign-up you started (Article 6(1)(f)). We send it only once, and you can ask us not to email you by replying to it or writing to support@mamacircle.no.</p>
         <p><strong>An email about getting verified</strong>: If you are a member who hasn&#8217;t verified with Vipps, we may send you one email, in Norwegian and English, explaining how to get the verified badge and that it needs the latest version of the app. This relies on our legitimate interest in a safe community where members can see who is really who (Article 6(1)(f)). We send it only once, and you can ask us not to email you by replying to it or writing to support@mamacircle.no.</p>
         <p><strong>Cultural or language background</strong>: we removed this optional field on 6 October 2026, because it could reveal ethnic origin, which the GDPR treats as especially sensitive, and deleted everything that had been entered in it.</p>
@@ -319,11 +320,12 @@
           <li><strong>Supabase</strong> (database, authentication, file storage, and real-time messaging infrastructure), hosted in the EU (eu-north-1 region).</li>
           <li><strong>Firebase Cloud Messaging</strong>, a Google service used only to deliver push notifications to your device. Only a device token and the notification content are sent to this service, for this purpose only.</li>
           <li><strong>Firebase Crashlytics</strong>, a Google service used to help us detect and fix app crashes and errors. If the app crashes or hits an unexpected error, a technical report is sent to this service: what went wrong, your device model and OS version, the app version, and a short log of what the app was doing just before (for example which tab was open, or that you had just signed in). If you are signed in, the report also carries your account's internal ID, a random code rather than your name or email address, so we can tell which account a crash happened on when we investigate it or help you with a problem. It does not include your posts, messages, or other personal content.</li>
+          <li><strong>Firebase Performance Monitoring</strong>, a Google service used in the app and the web app to measure how quickly the app starts, shows screens and loads data, so we can find and fix what is slow. It receives these timings together with your device model, operating system, language setting and mobile carrier, the app version, a random installation identifier and a random session identifier, and the addresses of the app's requests to our servers without their parameters or content. Google uses your IP address only to work out which country a measurement came from. The measurements are not linked to your account, name or email address, and include none of your posts, messages or other personal content.</li>
           <li><strong>Sentry</strong> (Functional Software, Inc.), used only in the web version of the app, in the same way and for the same purpose as Firebase Crashlytics above: if the web app hits an unexpected error, a technical report (what went wrong, your browser and its version, and the app version) is sent to Sentry, stored in its EU (Germany) region. If you send a bug report from the web app, your description is sent there too. It does not include your posts or messages.</li>
           <li><strong>Google Cloud Vision API</strong>, used to automatically screen photos you upload, including photos you send in chat, for content that may violate our community guidelines (for example, explicit or violent imagery), so our moderators can review it. Only the photo itself is sent to this service, for this purpose only; it does not decide on its own to remove anything, a human reviews any photo it flags.</li>
           <li><strong>Resend</strong>, used only to send account emails, such as confirming your email address and resetting your password, the one reminder described above if you start signing up but don&#8217;t finish, and the one email about getting verified described above. Only your email address and the content of that email are sent to this service. It also delivers the bug reports you send to our own feedback mailbox, as described above: your description, the technical details, your display name and your email address, never the screenshot.</li>
           <li><strong>Cloudflare Turnstile</strong>, a security check on the log-in, sign-up and password-reset screens that tells real people apart from automated sign-ups. For this check only, Cloudflare processes technical information about your browser or device, including your IP address.</li>
-          <li><strong>Webhuset AS</strong>, in Norway, which hosts the web version of the app (app.mamacircle.no). Like any web host, its servers process your IP address and browser details to deliver the pages to you.</li>
+          <li><strong>Webhuset AS</strong>, in Norway, which hosts the web version of the app (app.mamacircle.no) and our website (mamacircle.no). Like any web host, its servers process your IP address and browser details to deliver the pages to you.</li>
           <li><strong>Vipps MobilePay AS</strong>, used only if you choose to verify your identity, or to sign up or log in with Vipps. You log in inside Vipps's own app or website, and Vipps sends us your phone number and user identifier and, when you sign up or log in with Vipps, your email address, as described above. Vipps's own privacy terms apply to that login.</li>
         </ul>
         <p>We do not sell your information, and we do not share it with any other third party, advertiser, or data broker.</p>
@@ -336,13 +338,20 @@
         <p>Our database is stored in the EU. Some of the providers above are based outside the European Economic Area (EEA), so using them can mean your data is transferred abroad. Each transfer is protected as the GDPR requires:</p>
         <ul>
           <li><strong>Supabase</strong> (Supabase Pte. Ltd., Singapore) stores our database in its EU region in Stockholm, Sweden. Any processing outside the EEA is covered by the EU Standard Contractual Clauses.</li>
-          <li><strong>Google</strong> (Google LLC, USA), for Firebase Cloud Messaging, Firebase Crashlytics and Cloud Vision, may process data in any of its data centres. Google is certified under the EU-U.S. Data Privacy Framework, and the EU Standard Contractual Clauses also apply.</li>
+          <li><strong>Google</strong> (Google LLC, USA), for Firebase Cloud Messaging, Firebase Crashlytics, Firebase Performance Monitoring and Cloud Vision, may process data in any of its data centres. Google is certified under the EU-U.S. Data Privacy Framework, and the EU Standard Contractual Clauses also apply.</li>
           <li><strong>Apple</strong> (Apple Inc., USA) delivers notifications to iPhones, as for every iPhone app, under the EU Standard Contractual Clauses.</li>
           <li><strong>Cloudflare</strong> (Cloudflare, Inc., USA) is certified under the EU-U.S. Data Privacy Framework, with the EU Standard Contractual Clauses as a fallback.</li>
           <li><strong>Resend</strong> (Plus Five Five, Inc., USA) is certified under the EU-U.S. Data Privacy Framework, and the EU Standard Contractual Clauses also apply.</li>
           <li><strong>Sentry</strong> (Functional Software, Inc., USA) stores our data in its EU region in Germany; it is certified under the EU-U.S. Data Privacy Framework, with the EU Standard Contractual Clauses as a fallback.</li>
         </ul>
         <p>Vipps MobilePay AS and Webhuset AS are in Norway, inside the EEA.</p>
+      </section>
+
+      <section id="website">
+        <h2>Our website, mamacircle.no</h2>
+        <p>The website shows no ads, uses no analytics or tracking and sets no cookies. Apart from our own database (Supabase, in the EU), which it asks for the member count and to which it sends the two forms below, it loads nothing from other companies, fonts included. It remembers your choice of language in your own browser, which never sends it to us. It is hosted by Webhuset in Norway, whose servers process your IP address and browser details to deliver the pages.</p>
+        <p><strong>Newsletter</strong>: if you sign up, we store your email address in our database (Supabase, in the EU) and use it only to send you the MamaCircle newsletter. This relies on your consent (Article 6(1)(a)). We keep the address until you unsubscribe: write to <a href="mailto:support@mamacircle.no">support@mamacircle.no</a> at any time, or use the unsubscribe link in a newsletter, and we delete it.</p>
+        <p><strong>Little notes</strong>: on the note page you can leave a short note for other mothers, and say where you are from if you like. We store only the note and that place, never your name or email address, and read every note before deciding whether to show it on the website without any name. Notes are deleted 6 months after they arrive; a note we have chosen to show stays on the website until we remove it. Please do not write anything in a note that could identify you or anyone else.</p>
       </section>
 
       <section id="choices">
@@ -376,6 +385,8 @@
         <p>If you sign up or log in with Vipps, the codes that link your Vipps identity to your account (made from your Vipps user identifier and your phone number) are kept so that logging in with Vipps finds your account. They are deleted when you withdraw your consent in Vipps (apart from the phone number code kept for 30 days, as described above) or when you delete your account.</p>
         <p>If you start signing up but never create a profile, the unfinished account and its email address are deleted automatically 30 days after you started.</p>
         <p>Crash and error reports are kept by the crash-reporting services for a limited time (Firebase Crashlytics keeps them for 90 days). Bug reports are deleted after 90 days, as described above.</p>
+        <p>Firebase Performance Monitoring keeps measurements linked to an IP address for 30 days and its other performance data for 60 days.</p>
+        <p>Newsletter addresses are kept until you unsubscribe, and little notes are deleted 6 months after they arrive, as described under "Our website" above.</p>
       </section>
 
       <section id="security">
